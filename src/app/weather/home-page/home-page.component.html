@@ -1,0 +1,37 @@
+<br><br><br><br><br><div class="container">
+
+        <div class="jumbotron ">
+        <div class="text-center form-group" style="font-size: 28px">
+           <b><i class="fas fa-cloud-sun-rain" style="color:coral;font-size: 50px"></i> &nbsp; Get Weather updates in your city &nbsp; <i class="fas fa-cloud-moon" style="color:coral;font-size: 50px"></i></b> 
+        </div><br>
+            <div class="form-group form-inline justify-content-center">
+                   
+                <label for="input" class="mr-4"><b>Enter the City Name</b></label>
+                <input type="text"class="form-control col-lg-4" id="inputfield" #input>
+                
+            </div>
+            <div *ngIf="searchfield" class="text-center form-group" id="error"> 
+             
+                    <div class="text-danger"><b>Field Cannot be empty</b></div>
+            </div>
+            <div *ngIf="apifail" class="text-center form-group" id="apierror"> 
+             
+                    <div class="text-danger"><b>Please enter a valid city</b></div>
+            </div>
+            <div class="text-center form-group">
+                    <button class="btn btn-success" id="search" (click)="callApi(input.value)" ><i class="fas fa-cloud mr-2" style="color: cyan"></i>GetWeather</button>
+            </div>
+          
+      
+           
+            <!-- <div class="row">
+                    <div *ngIf="!searchfield" class="col-md-12">
+                    <router-outlet>  </router-outlet>
+                    </div>
+                </div> -->
+               
+                    
+
+        </div>
+    </div>
+

@@ -1,0 +1,44 @@
+<div class="jumbotron" style="background-color:cadetblue">
+    <div class="container">
+    
+        <br>
+        <div class="text-center">
+                <p><b>Showing the weather details for <i style="font-size: 18px;color:cornsilk">{{cityName}}</i></b></p>
+        </div>
+       <table class="table col-md-4 borderless" align="center">
+           
+           <tbody>
+               <tr>
+                   <td><b><span>Temperature</span></b></td>
+                   <td><b>{{temp}}&deg;C </b></td>
+               </tr>
+               <tr>
+                    <td><b><span>Humidity</span></b></td>
+                    <td><b>{{humidity}}% </b></td>
+               </tr>
+               <tr>
+                    <td><b><span>Description  </span></b></td>
+                    <td><b>{{description}} </b><img 
+                        src="http://openweathermap.org/img/wn/{{icon}}@2x.png" 
+                        alt="ic"
+                        style="height: 50px; width: 50px;">
+                        </td>
+               </tr>
+               <tr>
+                    <td><b><span>Wind Speed</span></b></td>
+                    <td><b> {{windSpeed}} m/h </b></td>
+               </tr>
+               <tr>
+                    <td><b><span>Latitude</span></b></td>
+                    <td><b> {{latitude}}&deg; </b></td>
+               </tr>
+               <tr>
+                    <td><b><span>Longitude</span></b></td>
+                    <td><b> {{longitude}}&deg; </b></td>
+               </tr>
+           </tbody>
+       </table>
+    
+   
+</div>
+</div>

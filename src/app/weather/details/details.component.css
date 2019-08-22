@@ -1,0 +1,6 @@
+span{
+    color: blueviolet;
+}
+.borderless td, .borderless th {
+    border: none;
+}
