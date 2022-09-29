@@ -21,7 +21,7 @@
     "@angular/router": "~8.2.0",
     "@types/scriptjs": "0.0.2",
     "bootstrap": "^4.3.1",
-    "d3": "^5.11.0",
+    "d3": "^7.6.1",
     "jquery": "^3.4.1",
     "rxjs": "~6.4.0",
     "scriptjs": "^2.5.9",
